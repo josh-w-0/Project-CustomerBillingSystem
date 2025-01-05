@@ -52,7 +52,7 @@ public class CustomerBillingSystem extends javax.swing.JFrame {
     }
     public static double convertCurrency(String baseCurrency, String targetCurrency, double amount) { //converts a specified currency to a targetCurrency using an API
         try {
-            String apiUrl = "https://open.er-api.com/v6/latest/" + baseCurrency + "?apikey=96d0c5308c7d4c718b4de772f2fddf04"; //api for OpenExchangeRates
+            String apiUrl = "https://open.er-api.com/v6/latest/" + baseCurrency + "?apikey=Insert Exchange Rate Api Key Here"; //api for OpenExchangeRates
 
             URL url = new URL(apiUrl);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
