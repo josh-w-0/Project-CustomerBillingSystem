@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JFrame" name="Email">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="Email"/>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[400, 350]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="send" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jTextField2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jComboBox2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="102" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jComboBox3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="send" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="93" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="jComboBox2">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox3">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Customer ID:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Order #:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="send">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Send Email"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JSpinner" name="jSpinner1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Customer Billing System"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="modifyCustomer" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="addCustomer" min="-2" pref="134" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="readOFile" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkC" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="wOFile" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkO" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="output" min="-2" pref="457" max="-2" attributes="0"/>
+                          <Component id="cCustomer" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="selectC" min="-2" max="-2" attributes="0"/>
+                                  <Component id="selectO" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="printReceipt" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="sendText" max="32767" attributes="0"/>
+                                          <Component id="phoneInput" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="sendTitle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Component id="emailInput" min="-2" pref="164" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="sendEmail" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="orderNumTitle" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="bTitle" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="billDate" min="-2" pref="140" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="idTitle" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="customerID" min="-2" pref="87" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="refreshID" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="eTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="pcTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="phoneTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                          <Component id="email" alignment="0" pref="121" max="32767" attributes="0"/>
+                                                          <Component id="pCode" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                                                          <Component id="phone" alignment="0" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="foodTitle" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="burgerTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="friesTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                      <Component id="orders" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="pizzaTitle" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="m6" alignment="0" max="32767" attributes="0"/>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                          <Component id="pizza" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                          <Component id="burger" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                          <Component id="fries" min="-2" pref="52" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                              <Component id="hotdog" min="-2" pref="51" max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="sodaTitle" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                                  <Component id="soda" min="-2" pref="52" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                              <Component id="m1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="m3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="m2" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="m5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="m4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="m7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="hotdogTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="modOrder" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="cOrder" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="addOrder" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jScrollPane1" alignment="0" min="-2" pref="263" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="fTitle" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="aTitle" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="lTitle" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="last" pref="89" max="32767" attributes="0"/>
+                                                  <Component id="first" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                              <Component id="address" min="-2" pref="140" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="cTitle" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="oTitle" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="country" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="orderDate" min="-2" pref="140" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                                      <Component id="cdTitle" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="title" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="cNumTitle" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="customers" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="selectCustomer" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="selectOrder" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="check" min="-2" pref="103" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                                              <Component id="oDataTitle" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane2" min="-2" pref="197" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="search" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="searchInput" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="sTitle" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="read" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="write" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="99" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="cdTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="first" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="last" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="title" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Component id="oDataTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="customers" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cNumTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="selectCustomer" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="selectOrder" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="check" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="289" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="sTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="searchInput" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="aTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="address" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="orderNumTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="orders" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="pcTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="pCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="phoneTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="phone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="email" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="eTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="country" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="cTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="orderDate" min="-2" max="-2" attributes="0"/>
+                              <Component id="oTitle" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="bTitle" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="billDate" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="idTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="customerID" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="refreshID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="m6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="m7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="pizzaTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="pizza" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="m1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="burgerTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="burger" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="m3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="friesTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="fries" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="m2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="sodaTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="soda" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="m5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="hotdogTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hotdog" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="m4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="addOrder" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="modOrder" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cOrder" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="115" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="modifyCustomer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="addCustomer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="checkC" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="checkO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="search" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="read" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="write" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="readOFile" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="wOFile" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="selectC" min="-2" max="-2" attributes="0"/>
+                  <Component id="output" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="selectO" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="printReceipt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sendText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="phoneInput" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="sendEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailInput" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sendTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="cCustomer" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="com.toedter.calendar.JDateChooser" name="orderDate">
+      <Properties>
+        <Property name="dateFormatString" type="java.lang.String" value="dd/MM/yyyy"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="title">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Comic Sans MS" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Customer Billing System (CBS)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="aTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pcTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Postal Code:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="phoneTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone #:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Country:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="oTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Order Date:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Billing Date:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cdTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Customer Data"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="output">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="outputActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="oDataTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Order Data"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addCustomer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Create Customer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addCustomerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="idTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cNumTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer #:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="customers">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="customersActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="selectCustomer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Select Customer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="selectCustomerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="orderNumTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Order #:"/>
+      </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="billDate">
+      <Properties>
+        <Property name="dateFormatString" type="java.lang.String" value="dd/MM/yyyy"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="first">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="firstActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="last">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lastActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="address">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addressActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="pCode">
+    </Component>
+    <Component class="javax.swing.JTextField" name="phone">
+    </Component>
+    <Component class="javax.swing.JTextField" name="email">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="country">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Canada"/>
+            <StringItem index="1" value="United States"/>
+            <StringItem index="2" value="United Kingdom"/>
+            <StringItem index="3" value="Mexico"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="customerID">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="0001"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="modifyCustomer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modify Customer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="modifyCustomerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="refreshID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="New ID"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="refreshIDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="orders">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ordersActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="foodTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Food Items:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="pizzaTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pizza Slice"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pizzaTitleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="burgerTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Burger"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="burgerTitleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="sodaTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Soda"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sodaTitleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="friesTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fries"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="friesTitleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="pizza">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="hotdogTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hot Dog"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hotdogTitleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="read">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Read Customer File"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="readActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="write">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Write Customer File"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="writeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="m1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3.99$"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="m2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2.99$"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="m3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5.99$"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="m4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3.99$"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="m5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1.99$"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="m6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Amount"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="m7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cost"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="burger">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="burgerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="soda">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sodaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="hotdog">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hotdogActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fries">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="friesActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="customersField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="String[] list = readFromFile(&quot;orders.txt&quot;);&#xa;for (String str: list){&#xa;    String[] vars = str.split(&quot;,&quot;);&#xa;    Order o = new Order(Integer.parseInt(vars[0]),Integer.parseInt(vars[1]),&#xa;    Integer.parseInt(vars[2]),Integer.parseInt(vars[3]),Integer.parseInt(vars[4]),vars[6],vars[5]);&#xa;    orderList.add(o);&#xa;    orders.addItem(o.getOrderIndex());&#xa;    Order.incrementIndex();&#xa;    }&#xa;list = readFromFile(&quot;customers.txt&quot;);&#xa;for (String str: list){&#xa;    String[] vars = str.split(&quot;,&quot;);&#xa;    Customer custom = new Customer(vars[0],vars[1],vars[2], vars[3],vars[4],vars[5],&#xa;                                        vars[6],vars[7],vars[8],vars[9]);&#xa;    customerList.add(custom);&#xa;    customersField.append(customerList.get(customerList.size()-1).toString() + &quot;\n&quot;);&#xa;    customers.addItem(custom.getId());&#xa;    Customer.incrementIndex();&#xa;    }&#xa;customerID.setText(df.format(Customer.getIdIndex()));"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="addOrder">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addOrderActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="modOrder">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modify"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="modOrderActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="readOFile">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Read Order File"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="readOFileActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="sendText">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Send Text Message"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sendTextActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="selectOrder">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Select Order"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="selectOrderActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="check">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Check"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="wOFile">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Write Order File"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wOFileActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="printReceipt">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Preview Receipt"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="printReceiptActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="selectC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer Selected:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="selectO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Order Selected:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="receipt">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Send To: (+1)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="phoneInput">
+    </Component>
+    <Component class="javax.swing.JButton" name="checkO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Check Orders"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkOActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="checkC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Check Customers"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkCActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search Customer By First Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="searchInput">
+    </Component>
+    <Component class="javax.swing.JButton" name="search">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="sendEmail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Send"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sendEmailActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="emailInput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="sendTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Send Email To: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="cCustomer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clear Customer Fields"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cCustomerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="cOrder">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cOrderActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
