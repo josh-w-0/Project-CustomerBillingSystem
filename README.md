@@ -8,4 +8,3 @@ public static final String AUTH_TOKEN = "Insert Auth Token Here";
 In SendEmail.java  
 final String senderEmail = "Insert Email Here"; // change email address  
 final String senderPassword = "Insert Password Here"; // change password  
-In SendEmail.java  
