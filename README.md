@@ -1,7 +1,7 @@
 # FinalProjectICS4U
 
-Documentation Links: 
-[Feasability Study](https://docs.google.com/document/d/1z3Mruk432Xv6suJtBWFKQ9512MqgPJRksRtH97oHaEU/edit?usp=sharing) 
+Documentation Links:  
+[Feasability Study](https://docs.google.com/document/d/1z3Mruk432Xv6suJtBWFKQ9512MqgPJRksRtH97oHaEU/edit?usp=sharing)  
 [Testing Report](https://docs.google.com/document/d/1AZFFl9AR-EfF3B0ZXs2_IG1beyGUZanUzXr49nYu2Jw/edit?usp=sharing)
 
 Must change the following variables:  
